@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+## Table of Contents
+1. [General Info](#general-info)
+2. [Technologies](#technologies)
+3. [Key Features](#key-features)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### General Info
+***
+This is a Solo Personal Project Netflix Clone App made using React , Tailwind CSS and Firebase.
 
-## Available Scripts
+[Live Link](https://netflix-clone-437df.web.app/)
+### Screenshot
+![Landing Page](./Screenshots/Landing_Page.png)
+![Movies depending on Category in Row](./Screenshots/Movie_Category_Row.png)
+![Sign In Page](./Screenshots/Sign_In_Page.png)
+![After Login](./Screenshots/After_Login.png)
+![Account Page with Watch Later Movies saved](./Screenshots/Account_Page.png)
+![Trailer with React Youtube Integration](./Screenshots/Trailer.png)
+## Technologies
+***
+A list of technologies used within the project:
+* [React Js](https://reactjs.org/): Version 18 
+* [Tailwind CSS](https://tailwindcss.com/): Version 3.1.6
+* [Firebase](https://firebase.google.com/): Version 9.9.1
+## Key Features
+***
+1. Used [React Router](https://reactrouter.com/).
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. [TMDB API](https://www.themoviedb.org/) Intergration.
+   i.Used API for the Movies data and also added trailer preview capability
+3. Responsive design with [Tailwind CSS](https://tailwindcss.com/).
+   i.Used utility first framework with mobile first design implementation
+4. [Firebase](https://firebase.google.com/) Authentication and FireStore Database  Integration.
+   i.Used Firebase for Authentication and FireStore as a database to store watchlist movies for specific account.

@@ -106,7 +106,7 @@ const Main = ({fetchUrl}) => {
             src={`https://image.tmdb.org/t/p/original/${movie?.backdrop_path}`}
             alt={movie?.title}
           />
-          <div className="absolute top-[17%] sm:top-[24%] ml-6 sm:ml-10 p-4">
+          <div className="absolute top-[20%] md:top-[23%] lg:top-[40%]  ml-6 sm:ml-10 p-4">
             <h1 className="text-4xl md:text-5xl pb-6 font-bold">{movie?.title}</h1>
             <p className="text-gray-400 pb-3">Released Date: {movie?.release_date}</p>
             <p className="w-[200px] md:w-[600px] text-base md:text-lg pb-4">{truncateString(movie?.overview,200)}</p>
